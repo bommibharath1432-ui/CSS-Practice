@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="register-container">
+        <div class="form-group">
+          <label>User Name</label>
+          <input type="text" placeholder="Enter User Name" name="username" />
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter Password" name="password" />
+        </div>
+        <div class="form-group">
+          <label>Retype Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="retype_password   "
+          />
+        </div>
+        <div class="form-group">
+          <label>Mobile No</label>
+          <input
+            type="number"
+            placeholder="10 Digits Mobile No"
+            name="mobileno"
+          />
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <span class="radio-align">
+            <label>Male <input type="radio" name="gender" /></label>
+            <label>Fe-Male <input type="radio" name="gender" /></label>
+          </span>
+        </div>
+        <div class="form-group">
+          <label>Qualification</label>
+          <span class="radio-align">
+            <label>SSC <input type="checkbox" name="ssc" /></label>
+            <label>Inter <input type="checkbox" name="inter" /></label>
+            <label>UG <input type="checkbox" name="ug" /></label>
+            <label>PG <input type="checkbox" name="pg" /></label>
+          </span>
+        </div>
+        <div class="form-group">
+          <label>Date of Join</label>
+          <input type="date" name="doj" />
+        </div>
+        <div class="form-group">
+          <label>Address</label>
+          <textarea></textarea>
+        </div>
+        <div class="form-group">
+          <label>Country</label>
+          <select>
+            <option value="">Select Country</option>
+            <option value="india" selected>India</option>
+            <option value="America">America</option>
+          </select>
+        </div>
+        <div class="button-group">
+          <button class="btn login-button" type="submit">Signup</button>
+          <a class="btn register-button" href="./index.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
